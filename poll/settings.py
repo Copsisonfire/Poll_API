@@ -25,7 +25,7 @@ SECRET_KEY = 'j)e%@ymt(d*6er+1s0&ppxxzq^piy86ut)4joj#gbx@ksn*0ry'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -121,3 +121,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = "poll_api/static/"
